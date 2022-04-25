@@ -46,6 +46,7 @@ body {
 
 header {
   background-color: var(--bg-color);
+  background-image: "images/bg/bg-1920x1080.jpg" ;
   box-shadow: var(--header-shadow);
 }
 
