@@ -52,6 +52,13 @@ body {
   overflow: hidden;
 }
 
+.logo {
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  justify-content: center;
+}
+
 /* HEADER */
 
 header {
