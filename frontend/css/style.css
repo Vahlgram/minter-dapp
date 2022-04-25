@@ -6,7 +6,7 @@
 
 :root {
   --font-primary: "Alfa+Slab", sans-serif;
-  --font-secondary: "Shadows+Into+Light", serif;
+  --font-secondary: "Shadows", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #2d00ce;
   --bg-color-transparent: #ff000080;
@@ -63,6 +63,23 @@ header .container {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+/* Footer */
+footer {
+  background-color:black;
+  color: white;
+  padding: 1rem;
+
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0;
+
 }
 
 /* NOT CONNECTED */
