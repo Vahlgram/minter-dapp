@@ -52,8 +52,7 @@ body {
 .logo {
   font-family: var(--font-primary);
   font-style: normal;
-  text-align: left;
-  justify-content: center;
+  text-align: center center;
 }
 
 /* HEADER */
