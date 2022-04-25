@@ -364,7 +364,7 @@ section {
   }
   .wallet-btn {
     margin-left: 0;
-    padding: 0.5rem 1rem;
+    padding: 0.1rem .2rem;
     max-width: 8rem;
   }
   .not-connected {
