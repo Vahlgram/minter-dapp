@@ -9,10 +9,10 @@
   --font-primary: "Alfa Slab One", sans-serif;
   --font-secondary: "Shadows Into Light", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #2d00ce;
+  --bg-color: #ffffff;
   --bg-color-transparent: #ff000080;
-  --font-color: #ffffff;
-  --btn-bg-color: #810d0d;
+  --font-color: #000000;
+  --btn-bg-color: #5c0404;
   --accent-color: #ffffff;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
