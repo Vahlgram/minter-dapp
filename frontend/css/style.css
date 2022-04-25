@@ -1,6 +1,6 @@
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Shadows+Into+Light&display=swap");
+
 
 /* GLOBAL STYLES */
 
@@ -24,8 +24,7 @@
 }
 
 body {
-  background-image:url("images/bg/bg-1920x1080.jpg");
-  background-size: cover;
+
   color: white;
   display: flex;
   flex-flow: column;
@@ -48,8 +47,7 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
-  background-image: url("images/oob/bg.jpg");
+  background-image: url("images/bg/bg.jpg");
   background-size: cover;
   background-position: center center;
   box-shadow: var(--header-shadow);
