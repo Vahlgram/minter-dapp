@@ -39,8 +39,6 @@ body {
 
 .container {
   font-family: var(--font-secondary);
-  font-style: italic;
-  font-weight: bold;
   font-size: 1rem;
   text-align: center;
   display: flex;
@@ -55,7 +53,6 @@ body {
 .logo {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: bold;
   text-align: left;
   justify-content: center;
 }
@@ -74,7 +71,6 @@ header .container {
 
 .menu {
   font-family: var(--font-primary);
-  font-weight: bold;
   font-size: 1rem;
   display: flex;
   gap: 1rem;
