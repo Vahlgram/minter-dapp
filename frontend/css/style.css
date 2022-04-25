@@ -24,7 +24,7 @@
 }
 
 body {
-  background-image: url(bg/bg-1920x1080.jpg)
+  background-image: url(bg/bg-1920x1080.jpg);
   background-size: cover;
   color: white;
   display: flex;
