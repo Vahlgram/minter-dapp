@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ora-Ora Battler</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/x-icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/x-icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/x-icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/x-icon/site.webmanifest" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      
+     <ul style="margin-top: 20px">
+		 <li><a href="/"><img src="images/x-icon/favicon-32x32.png" alt="logo"/></a>
+		 </li>
+		 <li>Ora-Ora Battler
+		 </li>
+		</ul>
+        
+        <div class="menu">
+          <a 
+            href="https://candid-swan-bde0c4.netlify.app/"
+            rel="noopener noreferrer"
+            class="selected"
+          >Home          
+          </a>
+          |
+          <a 
+            href="https://candid-swan-bde0c4.netlify.app/"
+            rel="noopener noreferrer"
+          >Halls of Valhalla          
+          </a>
+          |
+          <a 
+            href="https://candid-swan-bde0c4.netlify.app/"
+            rel="noopener noreferrer"
+          >Barracks        
+          </a>
+
+            <button class="wallet-btn btn" id="connectWallet">
+            <span>Connect Your Wallet</span>
+          </button>
+        </div>
+
+    </header>
+	  
+<section>
+<div class="container">
+	<div class="leftpart" style="width: 45%; align-content: left;margin:auto;">
+<h1>Ragnarok</h1>
+
+	<p>Souls of warriors dont go to heaven, they are summoned to the halls of Valhalla to fight for another day.
+	  Ragnarok isn't isnt an event marking the end. It's a fist fight battle royale where we Lords wager on whose battler survives.</p>
+	<p>&nbsp;</p>
+    <p> Why does thee hesistate? Prepare your Battler! Ragnarok is upon us.&nbsp;</p>
+    <p><button class="wallet-btn btn" style="opacity:100%">Go to Halls of Valhalla</button> </p>
+	</div>
+	<div class="rightppart" style="width: 45%; align-content: left;margin:auto;"> <img width="300px" height="300px"/>
+	</div>
+	
+	</div>
+</section>
+
+    <section class="container not-connected">
+      <div>
+        <h1 id="welcomeH1">Ragnarok&nbsp;</h1>        
+        <p id="welcomeP"></p>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="countdown card">
+        <div id="countdown">
+          <ul class="count-down" data-date="">
+            <li class="clock-item">
+              <span class="count-number days">20</span>
+              <p class="count-text">Days</p>
+            </li>
+
+            <li class="clock-item">
+              <span class="count-number hours">20</span>
+              <p class="count-text">Hour</p>
+            </li>
+
+            <li class="clock-item">
+              <span class="count-number minutes">20</span>
+              <p class="count-text">Min</p>
+            </li>
+
+            <li class="clock-item">
+              <span class="count-number seconds">20</span>
+              <p class="count-text">Sec</p>
+            </li>
+          </ul>
+          <h2 id="subHeading">Pre- Summoners Countdown</h2>
+        </div>
+        <h1 id="mainHeading">Battlers to be redistributed soon!</h1>
+        <p id="mainText">
+         We await the souls of more Battlers.
+        </p>
+        <a
+          id="actionButton"
+          href="https://discord.gg/GDJZejRczG"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hero-btn btn"
+          ><span>Join our Discord</span>
+        </a>
+        <div id="mintContainer" class="mint-container hidden">
+          <div class="info-container">
+            <div>
+              <h3>Summoning Tax</h3>
+              <p id="pricePerMint">15 Matic</p>
+            </div>
+          </div>
+          <div class="mint-qty">
+            <span>
+              <button class="input-number-decrement btn" id="mintDecrement">–</button>
+              <input
+                id="mintInput"
+                class="input-number btn"
+                type="number"
+                value="1"
+                min="1"
+                max="5"
+              />
+              <button class="input-number-increment btn" id="mintIncrement">+</button>
+            </span>
+            <button id="setQtyMax" class="btn">SET MAX</button>
+          </div>
+          <div class="total-price-container">
+            <h3>Total</h3>
+            <p id="totalPrice">.001 ETH</p>
+          </div>
+          <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
+        </div>
+      </div>
+      <div class="minted-container card show-card hidden">
+        <h1>🎉</h1>
+        <h2>Here comes your Battler!</h2>
+        <p>Heres your proof summoner's scroll</p>
+        <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
+          <button class="hero-btn btn">View Scroll Details</button>
+        </a>
+        <p>Check your Battler</p>
+        <a
+          id="mintedLinkBtn"
+          href="https://testnets.opensea.io/account"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="hero-btn btn">Visit your barracks</button>
+        </a>
+      </div>
+    </section>
+
+    <div id="spinner" class="dot-spin"></div>
+
+    
+    
+   
+    <footer class="container">
+      <ul class="menu">
+          <li><a href="https://discord.gg/GDJZejRczG"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img src="images/header/discord.webp" alt="Discord" />
+              </a>
+          </li>
+          <li>
+              <a href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img src="images/header/twitter.webp" alt="Twitter" />
+              </a>
+          </li>
+          <li>
+              <a href="https://testnets.opensea.io/collection/ora-nft-test"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img src="images/header/opensea.webp" alt="Opensea" />
+               </a>
+          </li>
+        </ul>
+
+  </footer>
+
+  <script src="js/metamask-onboarding.bundle.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/constants.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/app.js"></script>
+  </script>
+
+  </body>
+</html>
