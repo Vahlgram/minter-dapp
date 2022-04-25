@@ -26,46 +26,73 @@
 
 body {
   background-image: url('../images/oob/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  display: flex;
-  flex-flow: column;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+	
 
+
+}
+Body h1{
+	font-family: "Alfa Slab One"; 
 }
 
 .container {
   font-family: var(--font-secondary);
-  font-size: 1rem;
-  text-align: center;
+  font-size: 1.5rem;
+  text-align: Left;
   display: flex;
   flex-direction: column;
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 80%;
+  margin: auto;
   padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
+  flex-direction: row;
+	
 }
 
-.logo {
-  font-family: var(--font-primary);
-  font-style: normal;
-  text-align: center center;
+.leftpart {
+  background-color: #000;
+	text-indent: 10%;
+  color: rgb(255, 255, 255);
+  opacity: .5;
+  border-radius: 20px;
+	width: 60%;
+}
+
+.rightppart{
+  background-color: white;
+	text-indent: 10%;
+  color: rgb(255, 255, 255);
+  opacity: .5;
+  border-radius: 20px;
+	width: 60%;
 }
 
 /* HEADER */
 
 header {
+	font-size: 1.3rem;
+	margin-top: 10px;
   box-shadow: var(--header-shadow);
   background-color: rgb(253, 253, 253);
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	
 }
 
-header .container {
+header ul{
+  text-align: center center;
+	display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+	list-style-type: none;
 }
 
 .menu {
@@ -78,9 +105,10 @@ header .container {
 
 /* Footer */
 footer {
-  background-color:black;
-  color: white;
-  padding: 1rem;
+position:absolute;
+background-color:black;
+color: white;
+padding: 1rem;
 
 }
 
