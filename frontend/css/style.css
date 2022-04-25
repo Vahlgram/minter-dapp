@@ -60,7 +60,7 @@ body {
 
 header {
   box-shadow: var(--header-shadow);
-  background-color: rgb(255, 187, 0);
+  background-color: rgb(253, 253, 253);
 }
 
 header .container {
