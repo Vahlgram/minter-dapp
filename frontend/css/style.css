@@ -11,7 +11,7 @@
   --font-code: "Roboto", monospace;
   --bg-color: #2d00ce;
   --bg-color-transparent: #ff000080;
-  --font-color: #ff0000;
+  --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #ffffff;
   --header-shadow: var(--accent-color) 0px 0px 5px;
@@ -28,7 +28,6 @@ body {
   background-image: url('../images/oob/bg.jpg');
   background-size: cover;
   background-position: center center;
-  color: white;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -61,6 +60,7 @@ body {
 
 header {
   box-shadow: var(--header-shadow);
+  background-color: darkblue;
 }
 
 header .container {
