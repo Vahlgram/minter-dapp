@@ -5,7 +5,7 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Alfa+Slab", sans-serif;
+  --font-primary: "Alfa", sans-serif;
   --font-secondary: "Shadows", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #2d00ce;
@@ -24,7 +24,9 @@
 }
 
 body {
-
+  background-image: url('../images/oob/bg.jpg');
+  background-size: cover;
+  background-position: center center;
   color: white;
   display: flex;
   flex-flow: column;
@@ -47,9 +49,6 @@ body {
 /* HEADER */
 
 header {
-  background-image: image("bg.jpg");
-  background-size: cover;
-  background-position: center center;
   box-shadow: var(--header-shadow);
 }
 
