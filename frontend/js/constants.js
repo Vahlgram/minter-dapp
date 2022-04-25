@@ -1,8 +1,7 @@
 const contractAddress = "0x3AF172ef5e0c62ADf257Ffa19381e18805A7ed26"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Ragnarok is upon us!";
-const welcome_h2 = "Connect to MetaMask to Get Started";
+const welcome_h1 = "Ragnarok";
 const welcome_p = "As we both know Souls of warriors dont go to heaven,they are summoned to the halls of Valhalla to fight for another day.	Ragnarok isnt an event marking the end. It's a fist fight battle royale where we Lords wager on whose battler survives.";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
@@ -13,7 +12,7 @@ const p_presale_coming_soon = "We are working hard to launch the NFT Collection.
 const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.. 😢";
 const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale! 🎉";
 const p_presale_mint_already_minted = "You've already claimed your whitelist mint. Thank you! 🎉";
-const p_public_mint = "No whitelist needed. Public minting is now open! 🎉";
+const p_public_mint = "";
 const button_presale_coming_soon = "Get on the Whitelist";
 const button_presale_mint_whitelisted = "Mint Your Special NFT";
 const button_presale_mint_not_whitelisted = "Get on the Whitelist";

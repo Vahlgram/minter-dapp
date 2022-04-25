@@ -1,18 +1,19 @@
 /* FONTS */
 
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Shadows+Into+Light&display=swap");
 
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Alfa", sans-serif;
-  --font-secondary: "Shadows", serif;
+  --font-primary: "Alfa Slab One", sans-serif;
+  --font-secondary: "Shadows Into Light", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #2d00ce;
   --bg-color-transparent: #ff000080;
   --font-color: #ff0000;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #ffffff;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -37,6 +38,11 @@ body {
 }
 
 .container {
+  font-family: var(--font-secondary);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
   display: flex;
   flex-direction: column;
   max-width: 960px;
@@ -83,9 +89,9 @@ footer ul {
 
 /* NOT CONNECTED */
 .not-connected {
-  align-items: center;
+  align-items: Center;
   height: 100%;
-  text-align: center;
+  text-align: left;
   margin: 0 auto 0 35vw;
   opacity: 0;
   transform: translateY(10vh);
