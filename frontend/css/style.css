@@ -49,7 +49,7 @@ body {
 
 header {
   background-color: var(--bg-color);
-  background-image: url('images/oob/bg.jpg)';
+  background-image: url("images/oob/bg.jpg");
   background-size: cover;
   background-position: center center;
   box-shadow: var(--header-shadow);
