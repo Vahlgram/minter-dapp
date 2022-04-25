@@ -3,12 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Shadows+Into+Light&display=swap");
 
 /* GLOBAL STYLES */
-
+#loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #21242d url('images/bg/loading.gif') no-repeat center;
+	z-index: 999;
+}
 :root {
   --font-primary: "Alfa+Slab+One&family", sans-serif;
   --font-secondary: "Shadows+Into+Light", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #000000;
+  --bg-color: #2d00ce;
   --bg-color-transparent: #ff000080;
   --font-color: #ff0000;
   --btn-bg-color: #ffffff;
@@ -32,6 +38,7 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+
 }
 
 .container {
