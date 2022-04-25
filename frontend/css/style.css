@@ -12,7 +12,7 @@
   --bg-color: #2d00ce;
   --bg-color-transparent: #ff000080;
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
+  --btn-bg-color: #ff0000;
   --accent-color: #ffffff;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
@@ -60,7 +60,7 @@ body {
 
 header {
   box-shadow: var(--header-shadow);
-  background-color: darkblue;
+  background-color: rgb(139, 102, 0);
 }
 
 header .container {
