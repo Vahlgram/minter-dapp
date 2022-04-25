@@ -47,7 +47,7 @@ body {
 /* HEADER */
 
 header {
-  background-image: url("images/oob/bg.jpg");
+  background-image: image("bg.jpg");
   background-size: cover;
   background-position: center center;
   box-shadow: var(--header-shadow);
