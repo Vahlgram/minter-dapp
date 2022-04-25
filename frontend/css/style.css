@@ -5,7 +5,7 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Alfa+Slab+One&family", sans-serif;
+  --font-primary: "Alfa+Slab", sans-serif;
   --font-secondary: "Shadows+Into+Light", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #2d00ce;
@@ -49,6 +49,9 @@ body {
 
 header {
   background-color: var(--bg-color);
+  background-image: url('images/oob/bg.jpg)';
+  background-size: cover;
+  background-position: center center;
   box-shadow: var(--header-shadow);
 }
 
