@@ -24,7 +24,9 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: "images/bg/bg-1920x1080.jpg";
+  background-size: cover;
+  color: white;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -46,7 +48,6 @@ body {
 
 header {
   background-color: var(--bg-color);
-  background-image: "images/bg/bg-1920x1080.jpg" ;
   box-shadow: var(--header-shadow);
 }
 
