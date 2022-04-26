@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Shadows+Into+Light&display=swap");
+
+body {
+    background-color: white;
+	background-image:url("../images/oob/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    font-family: var(--font-primary);
+    margin: 0;
+	font-size: 1.3rem;
+	font-family: alfa slab one;
+	font-style: normal;
+	font-color: blue;
+	list-style-type: none;
+
+    }
+
+Body h1 {
+	font-family:"a";
+	text-align: left;
+	font-weight: bolder;
+
+    }
+.maincontainer{
+  font-family: var(--font-secondary);
+  padding: 1rem 1rem;
+  justify-content: space-between;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.container-left {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+	padding: 5px;
+	font-family: "shadows into light";
+	
+}
+.container-right {
+  background-color: darkred;
+  border-radius: 20px;
+	padding: 5px;	
+	font-family: "shadows into light";
+	
+}
+
+.roadmap {
+    list-style-type: none;
+	height: 500px; 
+    background-color: darkred;
+	font-family: Shadows into light;
+	font-weight: bolder;
+    color: rgb(255, 255, 255);
+	height: 50%;
+
+}    
+
+nav { 
+	background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: .1rem;
+    margin: 0 auto;
+	
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 1rem;
+}
+
+footer {
+    background-color: #000;
+	max-resolution: 0;
+}
+
+
+.wallet-btn {
+	background-color: darkred;
+	font-weight: bold;
+	font-size: 1.3rem;
+	font-family: "Shadows into light";
+  border-radius: 2rem;
+  margin-left: .5rem;
+  border-color: transparent;
+}
+
+.rotated {
+font-size: 1rem;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+background-color: darkred;
+display: flex;
+margin: 0 auto;
+height: 50px;
+}
+
+/* MINTED CONTAINER */
+
+.minted-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .minted-container h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .minted-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .minted-container p {
+    margin: 1rem 0;
+  }
+  
+
+
