@@ -2,7 +2,7 @@
 
 body {
     background-color: white;
-	background-image:url("../images/oob/bg.jpg");
+	background-image:url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -24,9 +24,10 @@ Body h1 {
 
     }
 .maincontainer{
+  display: flex;
   font-family: var(--font-secondary);
   padding: 1rem 1rem;
-  justify-content: space-between;
+  justify-content: space-evenly;
   overflow: hidden;
   flex-direction: row;
 }
@@ -39,13 +40,25 @@ Body h1 {
 	font-family: "shadows into light";
 	
 }
-.container-right {
+.container-center {
   background-color: darkred;
+  color:black;
   border-radius: 20px;
+  font-size: 1rem;
 	padding: 5px;	
+	font-family: "  ";
+	
+}
+.container-right {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+	padding: 5px;
+  font-size: .9rem;
 	font-family: "shadows into light";
 	
 }
+
 
 .roadmap {
     list-style-type: none;
@@ -76,10 +89,20 @@ nav ul {
 }
 
 footer {
+  display: flex;
+  justify-content: space-evenly;
     background-color: #000;
-	max-resolution: 0;
 }
 
+.onboard {
+  background-color: darkred;
+	font-weight: bold;
+	font-size: 1.3rem;
+	font-family: "Shadows into light";
+  border-radius: 2rem;
+  margin-left: .5rem;
+  border-color: transparent;
+}
 
 .wallet-btn {
 	background-color: darkred;
