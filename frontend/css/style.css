@@ -107,7 +107,7 @@ header .container {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
+  background-color: #640101;
   color: var(--accent-color);
   font-family: var(--font-secondary);
   font-style: italic;
@@ -145,7 +145,7 @@ header .container {
 
 .card {
   position: relative;
-  background-color: var(--bg-color);
+  background-color: var(--accent-color);
   border-radius: 5px;
   border: 3px solid var(--accent-color);
   box-shadow: var(--card-shadow);
