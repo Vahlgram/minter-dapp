@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <script src="index.js" type="module"></script>
     <!-- favicon -->
     <link
       rel="apple-touch-icon"
@@ -36,10 +36,10 @@
 		</ul>
 			<div clas="onboard-Controller">
         <ul>  
-            <li><a href="" class="selected">Home</a></li> |
-            <li><a href="">Barracks</a></li>|
-            <li id="mintButton">Summon a Battler</li>
-            <li><button class="onboard"><span>Connect Your Wallet</span></button></li>
+            <li><a href="" class="selected">Home</a></li>
+            <li><button id="mintButton">Summon a Battler</li>
+            <li><a href="">Barracks</a></li>
+            <li><button onclick="connectWallet()"><span>Connect Your Wallet</span></button></li>
         </ul>
       </div>
     </nav>
@@ -66,7 +66,7 @@
 			<br>
 			<br>
 			<br>
-		  <center><button class="wallet-btn btn" id="mintButton">Summon a Battler</button></center>
+		  <center><button class="btn" id="mintButton">Summon a Battler</button></center>
    				 </div>
       
       	<div class="container-center" style="width: 27%; float: center;text-align: Left"> 
@@ -138,7 +138,7 @@
 	</div>
 <br>
 <br>
-<script src="index.js" type="module"></script>
+
 
  </body>
 
