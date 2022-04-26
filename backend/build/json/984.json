@@ -1,0 +1,27 @@
+{
+ "name": "Ora-Ora Battler_985",
+ "description": "A survivor Ora-Ora Battler NFT on the Polygon Network.",
+ "image": "",
+ "attributes": [
+  {
+   "trait_type": "Gauntlet",
+   "value": "S-Gauntlet"
+  },
+  {
+   "trait_type": "Helmet",
+   "value": "B-Helmet"
+  },
+  {
+   "trait_type": "Leg Armor",
+   "value": "V-Leg Armor"
+  },
+  {
+   "trait_type": "Shoulder Armor",
+   "value": "V-Shoulder Armor"
+  },
+  {
+   "trait_type": "Torso Armor",
+   "value": "S-Torso Armor"
+  }
+ ]
+}
