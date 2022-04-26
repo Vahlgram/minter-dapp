@@ -1,7 +1,7 @@
 const contractAddress = "0x3e46B2c179a985742ba371Ca9271A7Fc480186E2"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome my Lord to !!";
+const welcome_h1 = "Welcome my Lord to Ragnarok!!";
 const welcome_h2 = "Connect your Wallet to Get Started";
 const welcome_p = "Souls of warriors dont go to heaven,they are summoned to the halls of Valhalla to fight for another day. Ragnarok isn't isnt an event marking the end. It's a fist fight battle royale where we Lords wager on whose battler survives.";
 const h1_presale_coming_soon = "A new Battler is on the Horizon";
