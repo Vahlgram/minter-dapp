@@ -282,6 +282,7 @@ section {
 .input-number-decrement,
 .input-number-increment {
   user-select: none;
+  color: black;
 }
 
 .total-price-container {
